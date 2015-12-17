@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+	<title>My First Website</title>
+
+	<meta charset="utf-8" />
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" href="styles.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+</head>
+
+
+<body>
+	<!-- First bar -->
+	<div id="first-bar">
+		<!-- First-bar-left -->
+		<div class="fixedwidth">
+			<div id="first-bar-left">
+				<h1>Welcome to my first website! This was made by <a href="#">Diego Fortes</a> in 6 hours.</h1>
+			</div>
+
+			<!-- First-bar-right -->
+			<div id="first-bar-right">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+				<input type="submit" value="GET STARTED">
+			</div>
+		</div>
+	</div>
+
+	<!-- Second bar, contains basic information -->
+	<div id="second-bar">
+		<div class="fixedwidth">
+			<div id="Left">
+				<h2>Wild life everywhere.</h2>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy. dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+				<a href="#"><input class="button-standard" type="button" value="LEARN MORE"></a>
+			</div>
+			<div id="Right">
+				<ul class="checklist">
+					<li>Sed cursus magna ipsum nisl</li>
+					<li>Morbi pharetra vitae felis placerat</li>
+					<li>Pharetra nulla risus orci dapibus</li>
+					<li>Amet veroeros sed aliquam consequat</li>
+					<li>Tempus lorem adipiscing et lorem</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- Third-bar, contains pictures and description -->
+	<div id="third-bar">
+		<div class="fixedwidth">
+
+			<!-- image + text block 1 -->
+			<div class="third-bar-container">
+				<div class="third-bar-container-img float-left">
+					<img class="width-set" src="images/pic-1.png" alt="" height="389" >
+				</div>
+				<div class="third-bar-container-text third-bar-container-text-float-right">
+					<div class="third-bard-container-text-header">
+						<h2>Snow cats hunting at night</h2>
+					</div>
+					<p>Dummy text of the printing and typesetting industry. 
+						Lorem Ipsum has been the industry's standard dummy.</p>
+					<a href="#"><input class="button-standard" type="button" value="DETAILS"></a>
+				</div>
+			</div>
+
+			<!-- image + text block 2 -->
+			<div class="third-bar-container">
+				<div class="third-bar-container-img float-right ">
+					<img class="width-set" src="images/pic-2-bw.png" alt="" height="389" >
+				</div>
+				<div class="third-bar-container-text third-bar-container-text-float-left">
+					<div class="third-bard-container-text-header">
+						<h2>Cute pug staring at you</h2>
+					</div>
+					<p>Dummy text of the printing and typesetting industry. 
+						Lorem Ipsum has been the industry's standard dummy.</p>
+					<a href="#"><input class="button-standard" type="button" value="DETAILS"></a>
+				</div>
+			</div>
+
+			<!-- image + text block 3 -->
+			<div class="third-bar-container">
+				<div class="third-bar-container-img float-left ">
+					<img class="width-set" src="images/pic-3.jpg" alt="" height="389" >
+				</div>
+				<div class="third-bar-container-text third-bar-container-text-float-right">
+					<div class="third-bard-container-text-header">
+						<h2>Another good looking doggie</h2>
+					</div>
+					<p>Dummy text of the printing and typesetting industry. 
+						Lorem Ipsum has been the industry's standard dummy.</p>
+					<a href="#"><input class="button-standard" type="button" value="DETAILS"></a>
+				</div>
+			</div>
+
+			<!-- Div with a button to divide third-bar and fourth-bar -->
+			<div id="third-and-fourth-bar-division">
+				<button class="button-standard">LOAD MORE</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- Fourth bar -->
+	<div id="fourth-bar">
+		<div class="fixedwidth">
+			<div id="fourth-bar-left">
+				<h2>Check this form out</h2>
+				<p>Morbi pharetra vitae felis placerat pharetra. Nulla risus orci, dapibus id malesuada et nec, malesuada quis pellentesque eget.</p>
+
+				<!-- Form -->
+				<form action="#" id="fourth-bar-form"method="post">
+					<input id="form-name" type="text" placeholder="Name" class="float-left">
+					<input id="form-email" type="text" placeholder="E-mail" class="float-right">
+					<textarea name="" id="" cols="10" rows="10" placeholder="Message"></textarea>
+					<div class="fourth-bar-form-button">
+						<a href="#"><input id="form-submit" class="button-standard" type="button" value="SEND MESSAGE"></a>
+					</div>
+				</form>
+
+			<!-- Social medias and address -->
+			</div>
+			<div id="fourth-bar-list">
+				<ul class="fourth-bar-list-ul">
+					<li class="fourth-bar-list-ul-li-1"><a href="">twitter.com/untitled-tld</a></li>
+					<li class="fourth-bar-list-ul-li-2"><a href="">facebook.com/untitled-tld</a></li>
+					<li class="fourth-bar-list-ul-li-3"><a href="">instagram.com/untitled-tld</a></li>
+					<li class="fourth-bar-list-ul-li-4"><a href="">information@untitled.tld</a></li>
+					<li class="fourth-bar-list-ul-li-5"><a href="">1234 Rua dos Cangurus, São Paulo 00000-000</a></li>		
+				</ul>				
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer>
+		© Coded by <b>Diego Fortes</b> as front-end exercise. Technologies used: HTML5 and CSS3 
+	</footer>
+
+
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>
